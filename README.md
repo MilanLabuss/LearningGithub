@@ -1,0 +1,3 @@
+# CustomRatings
+
+Custom SwiftUI RatingsView
