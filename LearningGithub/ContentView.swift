@@ -19,13 +19,13 @@ struct ContentView: View {
         RatingsView(maxRating: 5, currentRating: $currentRating)
             .padding()
         
-        RatingsView(maxRating: 3, currentRating: $heartRating, width: 50, symbol: "heart", color: .red)
+        RatingsView(maxRating: 3, currentRating: $heartRating, width: 50, symbolEnum: .heart, color: .green)
             .padding()
         
         RatingsView(maxRating: 5, currentRating: $pinRating, width: 40, symbol: "pin", color: .blue)
         
         
-        RatingsView(maxRating: 5, currentRating: $bookmarkRating, symbolEnum: .bookmark, color: .teal)
+        //RatingsView(maxRating: 5, currentRating: $bookmarkRating, symbolEnum: .bookmark, color: .teal)
         
         
     }
